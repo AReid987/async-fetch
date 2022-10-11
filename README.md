@@ -7,6 +7,7 @@
  * Make a GET Request using the JavaScript fetch API
 <br/>
 <br/>
+
 ## Request Response Cycle
 
 *Web Requests : 3 - 5 minutes*
