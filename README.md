@@ -118,7 +118,9 @@ What are the 3 states of a Promise?
 <br/>
 
 **fetch()**
-*fetch() : 3 - 5 minutes
+
+*fetch() : 3 - 5 minutes*
+
 The .fetch() method enables us to make an HTTP request to a specific URL. It will return a Promise. Once the Promise reaches the *fulfilled* state, we can pass it to .then()
 
 ```
