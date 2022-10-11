@@ -8,7 +8,9 @@
 <br/>
 <br/>
 ## Request Response Cycle
+
 *Web Requests : 3 - 5 minutes*
+
  ![request_response](assets/request-response-cycle.png)
 
  [Jen Strong, "The Request/Response Cycle of the Web"](https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047)

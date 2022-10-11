@@ -6,10 +6,10 @@ body{
 header{
   background-image: url("assets/tall-grass-banner-11784047.png");
   background-position: center;
-  height: 30%;
+  height: 20%;
   opacity: 0.8;
   border-top: solid;
-  border-width: 30px;
+  border-width: 10px;
   border-color: #1CAA00;
   border-radius: 18px;
 }
@@ -31,12 +31,17 @@ header div h1, header div h2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 
 .fox-image{
   margin: 20px;
   width: auto;
   height: auto;
+  border: solid;
+  border-width: 2px;
+  border-radius: 13px;
+  border-color: #1CAA00;
 }
 
 .fox-button {
