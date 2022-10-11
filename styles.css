@@ -1,0 +1,92 @@
+body{
+  /* background: #0071aa; */
+  background: linear-gradient(180deg, rgba(0,113,170,1) 0%, rgba(0,113,170,0.9262298669467787) 60%, rgba(142,0,170,0.8590029761904762) 100%);
+}
+
+header{
+  background-image: url("assets/tall-grass-banner-11784047.png");
+  background-position: center;
+  height: 30%;
+  opacity: 0.8;
+  border-top: solid;
+  border-width: 30px;
+  border-color: #1CAA00;
+  border-radius: 18px;
+}
+
+header div h1, header div h2{
+  text-align: center;
+  color: #008ee0;
+  text-shadow: 2px 4px #000000b9;
+  font-family: Verdana;
+}
+
+
+/* main{
+  display: flex;
+} */
+
+.fox-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fox-image{
+  margin: 20px;
+  width: auto;
+  height: auto;
+}
+
+.fox-button {
+	border-radius: 18px;
+	height: 80px;
+	width: 300px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,.2);
+	font-size: 18px;
+	box-shadow: 
+		-6px -6px 26px #1ab2ffd4,
+		5px 10px 15px #003d5c0d,
+		15px 20px 35px #003d5c1a,
+		inset -2px -2px 2px #003d5c1a,
+		inset -1px -1px 3px #1ab2ff99,
+		inset 2px 2px 8px #52c5ff33,
+		inset 1px 1px 8px #52c5ff33,
+		-6px -6px 26px #1ab2ffcc;
+	background-color: #008ee0;
+	margin: 30px;
+	border: 0;
+	transition: 300ms ease-out;
+	cursor: pointer;
+	
+}
+
+.fox-button:hover {
+  box-shadow: 
+    4px 4px 6px #003d5c33, 
+    5px 10px 35px #003d5c1a,
+    8px 10px 25px #003d5c1a,
+    inset -1px -1px 9px #003d5c33,
+    inset -1px -1px 3px #1ab2ff99,
+    inset 1px 1px 8px #1ab2ff,
+    inset 4px 4px 24px #003d5c26,
+    -5px -5px 15px #1ab2ffe6;
+  transform: scale(.98);
+  
+
+}
+	
+.fox-button:active, .fox-button:focus {
+  box-shadow: 
+    inset 2px 2px 16px #1ab2ffe6, 
+    inset 8px 8px 9px #003d5c33, 
+    5px 10px 5px #003d5c08, 
+    -5px -5px 25px #1ab2ff1a, 
+    -2px -2px 9px #0070a81a, 
+    inset -2px -2px 9px #1ab2ff;
+  outline: none;
+  background-color: #008ee0;
+  text-shadow: -2px -2px 3px #003d5c33, 2px 2px 3px #1ab2ff;
+  transform: translateY(3px);
+}
